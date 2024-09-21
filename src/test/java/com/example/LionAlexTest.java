@@ -32,6 +32,6 @@ public class LionAlexTest {
     @Test
     public void checkAlexHaveKittens() throws Exception {
         LionAlex lionAlex = new LionAlex(feline);
-        assertEquals("У льва Алекса не может быть котят", 0, lionAlex.getKittens());
+        assertEquals("У льва Алекса нет львят", 0, lionAlex.getKittens());
     }
 }
